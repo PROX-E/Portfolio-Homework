@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("C:/Users/lichl/Documents/Programing/Basic-Portfolio - 2/assets/images/5-dots.png");
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
