@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-image: url("C:/Users/lichl/Documents/Programing/Basic-Portfolio - 2/assets/images/5-dots.png");
+    background-image: url("Portfolio-Homework-master.Basic-Portfolio.assets.images.5-dots.png");
 
     min-height: 100vh;
 
@@ -21,6 +21,13 @@ body {
 }
 
 /* Header styles start */
+.inner_header{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: 1020px;
+}
+
 .header{
     height: 100px;
     display: block;
@@ -29,12 +36,6 @@ body {
     background-color: #ffffff;
 }
 
-.inner_header{
-    display: block;
-    height: 100%;
-    margin: 0 auto;
-    width: 1020px;
-}
 
 .myname {
     float: left;
@@ -93,6 +94,14 @@ div.container {
     padding: 20px;
 }
 
+.main_text {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 15px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
 #about_me {
     font-weight: bold;
     font-size: 32px;
@@ -103,13 +112,6 @@ div.container {
     padding-left: 0px;
 }
 
-.main_text {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    padding: 15px;
-    font-size: 19px;
-    line-height: 1.5;
-}
 
 #photo {
     float: left;
@@ -142,16 +144,12 @@ div.gallery {
   div.gallery:hover {
     border: 1px solid #777;
   }
-  
-  div.gallery img {
+
+div.gallery img {
     width: 100%;
     height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+}
+
 
 .desc {
     background-color: #4aaaa5;
@@ -185,16 +183,16 @@ input[type=text], select, textarea {
     background-color: #188681;
   }
   
+  label {
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      color: #777777
+  }
   .container {
     background-color: #ffffff;
     padding: 20px;
     border-color: #dddddd;
   }
 
-  label {
-      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-      color: #777777
-  }
 
   #contact_head {
       color: #4aaaa5;
@@ -207,3 +205,27 @@ input[type=text], select, textarea {
 
   }
 /* contact styles end */
+
+/* Footer start */
+.footer {
+    width: 100vw;
+    display: block; 
+    overflow: hidden;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: #666666;
+    border-top: solid; border-color: #4aaaa5; border-width: 8px;
+    margin-top: auto;
+}
+
+.innter_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.copyright {
+    text-align: center; color: #cccccc
+}
+/* Footer end */
