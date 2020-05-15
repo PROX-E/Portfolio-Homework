@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-image: url("Portfolio-Homework-master.Basic-Portfolio.assets.images.5-dots.png");
+    background-image: url(assets\images\5-dots.png);
 
     min-height: 100vh;
 
@@ -87,7 +87,7 @@ body {
 
 /* index styles start */
 div.container {
-    width: 960px;
+    width: 75%;
     background-color: #ffffff;
     border: solid 2px #dddddd;
     margin: 50px auto;
@@ -229,3 +229,12 @@ input[type=text], select, textarea {
     text-align: center; color: #cccccc
 }
 /* Footer end */
+
+/* for mobile devices */
+/* @media screen and (max-width: 414px){
+    .main_text{
+
+        width: 40%;
+        height: 50%;
+    }
+} */
